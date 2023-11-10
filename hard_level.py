@@ -1,21 +1,29 @@
-# # #TASK_1
-# #         #VAR1
-# number=1234
-# number=str(number)
-# print(number[0]==number[1]==number[2]==number[3])
-# #         #VAR2
-# number=1234
-# number=str(number)
-# print(number[::]==number[::-1])
-# #         #VAR3
-# number=1234
-# number=str(number)
-# print(1 == int(number[0])/int(number[1]))
+#TASK_1
+#        VAR1
+number=1234
+number=str(number)
+print(number[0]==number[1]==number[2]==number[3])
+#         VAR2
+number=1234
+number=str(number)
+print(number[::]==number[::-1])
+#         VAR3
+number=1234
+number=str(number)
+print(1 == int(number[0])/int(number[1]))
+
+
+#TASK_2
+# a=int(input('Загадайте первое число: '))
+# b=int(input('Загадайте второе число: '))
+# N=int(input('Придумайте степень числа: '))
+# focus = ((a+1)*(b+1)-a-b-a*b)**N
+# print('Ответ равен единице?',1 == focus)
 
 #TASK_3
 # adress='192.168.0.1'
-# str=(adress[:3]+' '+adress[4:7]+' '+adress[8]+' '+adress[-1])
-# print('Код без точек через пробел:', str)
+# adress=adress.replace('.',' ')
+# print('Код без точек через пробел:', adress)
 # number_1=int(adress[:3])
 # number_2=int(adress[4:7])
 # number_3=int(adress[8])
