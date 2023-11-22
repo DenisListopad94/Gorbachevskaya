@@ -15,7 +15,7 @@ from random import randint
 # lst_1()
 
 #TASK_3
-# def numbers(a,b,c)-> list[int]:
+# def numbers(a:int,b:int,c:int)-> list[int]:
 #     '''Функция создает список чисел из промежутка от а до b в степени с'''
 #     result=[]
 #     for num in range(a,b+1):
@@ -44,7 +44,7 @@ from random import randint
 # lst_1()
 
 #TASK_5
-# def minimum(a,b)->int:
+# def minimum(a:int,b:int)->int:
 #     '''Функция принимает два аргумента a и b и возвращает минимальное из них'''
 #     return (min(a,b))
 # result=minimum(minimum(53,78),minimum(74,51))
@@ -52,13 +52,13 @@ from random import randint
 
 #TASK_6
 # from math import sqrt
-# def distance(x1, y1, x2, y2) -> float:
+# def distance(x1:float, y1:float, x2:float, y2:float) -> float:
 #     '''Функция вычисляет расстояние между точками (х1,у1) и (х2,у2) и возвращает действительное число'''
 #     print(sqrt((x2-x1)**2+(y2-y1)**2))
 # distance(21.6,15.5,9.8,7.2)
 
 #TASK_7
-# def fib(n)->int:
+# def fib(n:int)->int:
 #     '''Функция возвращает n-e число Фибоначчи '''
 #     if n == 0:
 #         return 0
@@ -73,14 +73,14 @@ from random import randint
 # print(result)
 
 #TASK_8
-# def closest_mod_5(x)->int:
+# def closest_mod_5(x:int)->int:
 #     '''Функция возвращает минимальное число кратное 5'''
 #     result = x if x%5==0 else x + (5 - x % 5)
 #     return result
 # print(closest_mod_5(18))
 
 #TASK_9
-# def modify_list(l)->list[int]:
+# def modify_list(l:list[int]) -> None:
 #     '''Функция считывает список чисел, удаляет все нечетные числа, а четные нацело делит на 2'''
 #     i=0
 #     while i < len(l):
