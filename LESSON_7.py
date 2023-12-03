@@ -12,18 +12,17 @@
 # name_hello(input('Enter name: '))
 
 #TASK_4
-# def digits(n:int)-> str:
+# def digits(n: int) -> str:
 #     '''A function that takes a number and returns a string with
 #     numbers from right to left separated by a space'''
-#     if n<10:
+#     if n < 10:
 #         return str(n)
-#     elif n==0:
-#         return '0'
 #     else:
-#         last_digits=n%10
-#         rest_digits=n//10
-#         return f'{last_digits} {digits(rest_digits)}'
-# result=digits(14623)
+#         last_digit = n % 10
+#         rest_digits = n // 10
+#         return f'{digits(rest_digits)} {last_digit}'
+#
+# result = digits(14623)
 # print(result)
 
 #TASK_5
@@ -39,15 +38,16 @@
 # print(result)
 
 #TASK_6
-# Дано натуральное число N. Вычислите сумму его цифр 14623
-# def summa_nmb(n:int)->int:
+# def sum_digits(n: int) -> int:
 #     '''A function that calculates the sum of all digits of the number n'''
-#     n=str(n)
-#     summa=0
-#     for i in range(len(n)):
-#         summa+=int(n[i])
-#     return summa
-# result = summa_nmb(14623)
+#     if n == 0:
+#         return 0
+#     else:
+#         last_digit = n % 10
+#         rest_digits = n // 10
+#         return last_digit + sum_digits(rest_digits)
+#
+# result = sum_digits(14623)
 # print(result)
 
 #TASK_7
@@ -96,16 +96,4 @@
 #     return "Пароль введен верно"
 # check_password('IT67589Sone')
 
-
-
-
-
-
-
-
-
-
-
-
-#TASK_5
 
