@@ -1,4 +1,4 @@
-#TASK_1
+##TASK_1
 # class SummMax():
 #     def __init__(self,a:int,b:int):
 #         self.a=a
@@ -18,7 +18,7 @@
 # print(f'Summa: {num.summ()}')
 # print(f'Maximum: {num.max_el()}')
 
-#TASK_2
+##TASK_2
 # class Decimal_counter():
 #     def __init__(self,max_value=100,min_value=0,start_value=0):
 #         self.max_value=max_value
@@ -52,9 +52,7 @@
 # counter_custom.decrease()
 # print("Уменьшено значение:", counter_custom.current_value())
 
-
-
-#TASK_3
+##TASK_3
 # class Product():
 #     def __init__(self,name:str,price:float):
 #         self.name=name
@@ -108,7 +106,7 @@
 # #Вывод продуктов на экран
 # shop.display_prod()
 
-#TASK_4
+##TASK_4
 # class MoneyBox():
 #     def __init__(self,capacity:int):
 #         self.capacity =capacity
@@ -135,7 +133,7 @@
 # moneybox.add(1)
 # moneybox.display_money()
 
-#TASK_5
+##TASK_5
 # class Product:
 #     def __init__(self,name:str,price:float,quantity:int)->None:
 #         self.name=name
@@ -170,21 +168,3 @@
 # shop.add_prod(product_5)
 # shop.add_prod(product_6)
 # shop.find_prod('Бронзер',2)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
